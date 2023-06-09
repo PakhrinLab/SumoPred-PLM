@@ -34,4 +34,4 @@ Please place
 All the training and independent test data are uploaded at the following google drive link: https://drive.google.com/drive/folders/1GsTRSQc2vwWH-tzBbkrXwrec6LpWUKhC
 
 
-If you need any futher help please contact Dr. Subash Chandra Pakhrin (pakhrins@uhd.edu) 
+If you need any help please contact Dr. Subash Chandra Pakhrin (pakhrins@uhd.edu) 
