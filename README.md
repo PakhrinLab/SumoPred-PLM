@@ -24,14 +24,8 @@ Please place
   GPS_SUMO_Independent_test82423____13.h5,
   and execute the GPS SUMO Independent Testing.ipynb program to see the reported result.
   
-
-
-
-
-
-
+  *** For your convenience we have uploaded the ProtT5 feature extraction program (analyze_Cell_Mem_ER_Extrac_Protein.py) for the protein sequence from ProtT5 as well as corresponding 1024 feature vector extraction program (Feature Extraction Program from the generated files.ipynb) from the ProtT5 file. ***
 
 All the training and independent test data are uploaded at the following google drive link: https://drive.google.com/drive/folders/1GsTRSQc2vwWH-tzBbkrXwrec6LpWUKhC
-
 
 If you need any help please contact Dr. Subash Chandra Pakhrin (pakhrins@uhd.edu) 
