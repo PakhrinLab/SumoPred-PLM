@@ -17,6 +17,13 @@ Please place
   SUMO2_330482327.h5,
   and execute the SUMO_2_3_Independent_Test_Set_Testing.ipynb program to see the reported result.
   
+  
+Please place 
+  GPS SUMO Independent Testing.ipynb,
+  GPS_Testing_Prot_T5_feature.txt (In the publicly shared google drive),
+  GPS_SUMO_Independent_test82423____13.h5,
+  and execute the GPS SUMO Independent Testing.ipynb program to see the reported result.
+  
 
 
 
