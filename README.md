@@ -10,6 +10,12 @@ Please place
   Subash_Chandra_Pakhrin5775457372.h5,
   and execute the SUMOylation Independent Testing.ipynb program to see the reported result.
   
+
+Please place 
+  SUMO_2_3_Independent_Test_Set_Testing.ipynb,
+  Independent_Test_Set_of_Hendriks_et_al_SUMO_2_3.csv (In the publicly shared google drive),
+  SUMO2_330482327.h5,
+  and execute the SUMO_2_3_Independent_Test_Set_Testing.ipynb program to see the reported result.
   
 
 
