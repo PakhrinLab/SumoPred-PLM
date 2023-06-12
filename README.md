@@ -1,4 +1,4 @@
-# pLMSumoPred: Prediction of human SUMOylation and SUMO2/3 sites using embeddings from a pre-trained protein language model
+# SumoPred-PLM: human SUMOylation and SUMO2/3 sites Prediction using Pre-trained Protein Language Model.
 
 Programs were executed using anaconda version: 2020.07, recommended to install the same
 
