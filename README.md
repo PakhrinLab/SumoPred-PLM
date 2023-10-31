@@ -46,7 +46,7 @@ pip install -r requirements.txt  # Install the project dependencies
 ## Download Protein Sequences From [Uniprot.org](https://www.uniprot.org/)  
 
 You can use our model with all human protein sequences provided by UniPort.
-  - We have included a file named `Q63HQ2.fasta` as an example in this repository
+  - We have included a file named `P10275.fasta` as an example in this repository
 
 Once you have downloaded the protein sequence you can send the sequence as input to the ProT5 PLM.
 
@@ -73,11 +73,11 @@ Here's how you can use the provided file for a single protein sequence:
 You need to make changes to only two lines of the code:
 ```
 basedir = "/Generate_ProtT5_File/after_cd_hit_files"       # here you will paste the location where your .fasta file is located
-name = "Q63HQ2.fasta"                                      # here you will add your protein name
+name = "P10275.fasta"                                      # here you will add your protein name
 ```
 The rest of the lines will stay the same.
 
-Once the code is successfully run, It will generate a file named `"Q63HQ2_Prot_Trans_.csv"`.
+Once the code is successfully run, It will generate a file named `"P10275_Prot_Trans_.csv"`.
 
 Here's how the output file will look:
 
@@ -107,7 +107,7 @@ df_K_Residue_Only.to_csv("P10275_K_Sites.csv", index = False)                 # 
 
 ```
 
-Once the process is complete, you will have a .csv file containing the embeddings of "S/T" sites.
+Once the process is complete, you will have a .csv file containing the embeddings of "K" sites.
 
 Here's an example output:
 
