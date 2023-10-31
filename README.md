@@ -72,7 +72,7 @@ Here's how you can use the provided file for a single protein sequence:
 
 You need to make changes to only two lines of the code:
 ```
-basedir = "/project/pakhrin/salman/after_cd_hit_files"     # here you will paste the location where your .fasta file is located
+basedir = "/Generate_ProtT5_File/after_cd_hit_files"       # here you will paste the location where your .fasta file is located
 name = "Q63HQ2.fasta"                                      # here you will add your protein name
 ```
 The rest of the lines will stay the same.
