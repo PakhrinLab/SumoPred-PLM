@@ -126,28 +126,7 @@ our model`Subash_Chandra_Pakhrin5775457372.h5` which should be downloaded and ke
 If you need any help don't hesitate to get in touch with Dr. Subash Chandra Pakhrin (pakhrins@uhd.edu)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# This is for Peer Review Purposes 
 
 Programs were executed using anaconda version: 2020.07, recommended to install the same
 
