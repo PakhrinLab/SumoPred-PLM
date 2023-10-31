@@ -117,8 +117,8 @@ Here's an example output:
 
 Now send the `P10275_K_Sites.csv` from the previous step as an input to the SumoPred-PLM.
 
-We have provided a file named `OglyPred-PLM.ipynb` and
-our model`Prot_T5_my_model_O_linked_Glycosylation370381Prot_T5_Subash_Salman_Neha.h5` which should be downloaded and kept in the same directory to avoid any issues.
+We have provided a file named `SumoPred-PLM.ipynb` and
+our model`Subash_Chandra_Pakhrin5775457372.h5` which should be downloaded and kept in the same directory to avoid any issues.
 
 
 ## Any Questions?
