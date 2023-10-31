@@ -57,9 +57,9 @@ Once you have downloaded the protein sequence you can send the sequence as input
 
 In order to run the ProT5 PLM, you need to install the following modules:
 ```bash
-pip install torch
-pip install transformers
-pip install sentencepiece
+!pip install torch
+!pip install transformers
+!pip install sentencepiece
 ```
 
 For more information, refer to this ["ProtTrans"](https://github.com/agemagician/ProtTrans) Repository.
