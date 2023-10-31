@@ -81,7 +81,7 @@ Once the code is successfully run, It will generate a file named `"P10275_Prot_T
 
 Here's how the output file will look:
 
-<img max-width = 100% alt="image" src="https://github.com/PakhrinLab/OglyPred-PLM/blob/main/images/ProT5_Output.png">
+<img max-width = 100% alt="image" src="https://github.com/PakhrinLab/SumoPred-PLM/blob/main/Whole_ProtT5_File_of_P10275_Protein.PNG">
 <br>
 
 Rows = Length of The Protein Sequence  
