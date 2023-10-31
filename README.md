@@ -92,9 +92,9 @@ Columns = 1025 (1 column to represent the protein residue + 1024 embeddings)
 >Make sure to keep all of the files being used in the same directory
 
 
-## Extracting "S/T" Sites From Contexualized Embeddings
+## Extracting "K" Sites From Contextualized Embeddings
 
-In order to extract only the "S/T" sites from the contexualized embeddings you can use the following code:
+In order to extract only the "K" sites from the contextualized embeddings you can use the following code:
 
 ``` bash
 import pandas as pd
@@ -102,8 +102,8 @@ import pandas as pd
 df = pd.read_csv("Q63HQ2_Prot_Trans_.csv", header = None)                     # replace with your ProtT5 embeddings file
 Header = ["Residue"]+[int(i) for i in range(1,1025)]
 df.columns = Header
-df_S_T_Residue_Only = df[df["Residue"].isin(["S","T"])]
-df_S_T_Residue_Only.to_csv("Q63HQ2_S_T_Sites.csv", index = False)            # saves the embeddings of only S and T residues
+df_K_Residue_Only = df[df["Residue"].isin(["K"])]
+df_K_Residue_Only.to_csv("Q63HQ2_S_T_Sites.csv", index = False)               # saves the embeddings of only K residues
 
 ```
 
