@@ -66,7 +66,7 @@ For more information, refer to this ["ProtTrans"](https://github.com/agemagician
 
 
 Once the model is installed you can write your own code to generate the contextualized embeddings **OR**
-to make this process easier for you, we have also provided a `Generate_ProtT5_Contextualized_Embeddings.ipynb` file.
+to make this process easier for you, we have also provided a `Generate_ProtT5_Contextualized_Embeddings_of_P10275_Protein.ipynb` file.
 
 Here's how you can use the provided file for a single protein sequence:
 
@@ -98,7 +98,6 @@ In order to extract only the "K" sites from the contextualized embeddings you ca
 
 ``` bash
 import pandas as pd
-
 df = pd.read_csv("P10275_Prot_Trans_.csv", header = None)                     # replace with your ProtT5 embeddings file
 Header = ["Residue"]+[int(i) for i in range(1,1025)]
 df.columns = Header
@@ -114,12 +113,12 @@ Here's an example output:
 <img max-width = 100% alt="image" src="https://github.com/PakhrinLab/OglyPred-PLM/blob/main/images/Extraction_S_T_Ouput.png">
 <br>
 
-## Sending Sites Into OglyPred-PLM For Predection
+## Sending Sites into SumoPred-PLM For Prediction
 
-Now send the `Q63HQ2_S_T_Sites.csv` from the previous step as an input to the OglyPred-PLM.
+Now send the `P10275_K_Sites.csv` from the previous step as an input to the SumoPred-PLM.
 
 We have provided a file named `OglyPred-PLM.ipynb` and
-our model`Prot_T5_my_model_O_linked_Glycosylation370381Prot_T5_Subash_Salman_Neha.h5`which should be downloaded and kept in the same directory to avoid any issues.
+our model`Prot_T5_my_model_O_linked_Glycosylation370381Prot_T5_Subash_Salman_Neha.h5` which should be downloaded and kept in the same directory to avoid any issues.
 
 
 ## Any Questions?
