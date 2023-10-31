@@ -1,21 +1,17 @@
-# SumoPred-PLM: human SUMOylation and SUMO2/3 sites Prediction using Pre-trained Protein Language Model.
-
-# OglyPred-PLM 
-Human *O*-linked Glycosylation Site Prediction Using Pretrained Protein Language Model
+# SumoPred-PLM: human SUMOylation and SUMO2/3 sites Prediction using Pre-trained Protein Language Model
 
 To guarantee proper use of our tool, please follow all the steps in the presented order.
 <br>
 <br>
 >[!Note]
-> All the programs provided in this repository are properly tested and accurate for its functionality! 
+> All the programs in this repository are properly tested and accurate for its functionality! 
 ## How it Works
-OglyPred-PLM is a multi-layer perceptron based approach that leverages contexualized embeddings generated
-from the ProT5-XL-UniRef50 Protein Language Model (Referred here as `ProT5 PLM`) to predict Human O-linked 
-glycosylation sites (`"S/T"`).
+SumoPred-PLM is a multi-layer perceptron-based approach that leverages contextualized embeddings generated
+from the ProT5-XL-UniRef50 Protein Language Model (Referred to here as `ProT5 PLM`) to predict Human SUMOylation and SUMO2/3 sites (`"K"`).
 
 ## Environment Details
 
-OglyPred-PLM was developed in the following environment:
+SumoPred-PLM was developed in the following environment:
 
 - Python version: 3.8.3.final.0
 - Python bits: 64
@@ -35,9 +31,9 @@ The model relies on the following Python packages and their specific versions:
 - scikit-learn: 0.23.1
 - TensorFlow: 2.3.1
 
-Please ensure that you have a compatible Python environment with these dependencies to use the model effectively.
+Please ensure you have a compatible Python environment with these dependencies to use the model effectively.
 
-## Create a Virtual Enviornment
+## Create a Virtual Environment
 
 To install the required dependencies for this project, you can create a virtual environment and use the provided `requirements.txt` file. Make sure your Python environment matches the specified versions above to ensure compatibility.
 
@@ -55,7 +51,7 @@ You can use our model with all human protein sequences provided by UniPort.
 Once you have downloaded the protein sequence you can send the sequence as input to the ProT5 PLM.
 
 
-## Generate Contexualized Embeddings Using ProT5 PLM
+## Generate Contextualized Embeddings Using ProT5 PLM
 
 ### ProT5 PLM Installation 
 
@@ -69,7 +65,7 @@ pip install sentencepiece
 For more information, refer to this ["ProtTrans"](https://github.com/agemagician/ProtTrans) Repository.
 
 
-Once the model is installed you can write your own code to generate the contexualized embeddings **OR**
+Once the model is installed you can write your own code to generate the contextualized embeddings **OR**
 to make this process easier for you, we have also provided a `Generate_Contexualized_Embeddings_ProT5.ipynb` file.
 
 Here's how you can use the provided file for a single protein sequence:
@@ -79,7 +75,7 @@ You need to make changes to only two lines of the code:
 basedir = "/project/pakhrin/salman/after_cd_hit_files"     # here you will paste the location where your .fasta file is located
 name = "Q63HQ2.fasta"                                      # here you will add your protein name
 ```
-Rest of the lines will stay the same.
+The rest of the lines will stay the same.
 
 Once the code is successfully run, It will generate a file named `"Q63HQ2_Prot_Trans_.csv"`.
 
