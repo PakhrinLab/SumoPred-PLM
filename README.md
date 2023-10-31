@@ -66,7 +66,7 @@ For more information, refer to this ["ProtTrans"](https://github.com/agemagician
 
 
 Once the model is installed you can write your own code to generate the contextualized embeddings **OR**
-to make this process easier for you, we have also provided a `Generate_Contexualized_Embeddings_ProT5.ipynb` file.
+to make this process easier for you, we have also provided a `Generate_ProtT5_Contextualized_Embeddings.ipynb` file.
 
 Here's how you can use the provided file for a single protein sequence:
 
