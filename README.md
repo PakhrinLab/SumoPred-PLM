@@ -99,11 +99,11 @@ In order to extract only the "K" sites from the contextualized embeddings you ca
 ``` bash
 import pandas as pd
 
-df = pd.read_csv("Q63HQ2_Prot_Trans_.csv", header = None)                     # replace with your ProtT5 embeddings file
+df = pd.read_csv("P10275_Prot_Trans_.csv", header = None)                     # replace with your ProtT5 embeddings file
 Header = ["Residue"]+[int(i) for i in range(1,1025)]
 df.columns = Header
 df_K_Residue_Only = df[df["Residue"].isin(["K"])]
-df_K_Residue_Only.to_csv("Q63HQ2_S_T_Sites.csv", index = False)               # saves the embeddings of only K residues
+df_K_Residue_Only.to_csv("P10275_K_Sites.csv", index = False)                 # saves the embeddings of only K residues
 
 ```
 
