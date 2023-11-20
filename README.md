@@ -129,7 +129,7 @@ Once the process is complete, you will have a .csv file containing the embedding
 
 Here's an example output:
 
-<img max-width = 100% alt="image" src="https://github.com/PakhrinLab/SumoPred-PLM/blob/main/Only_K_Embedding.PNG">
+<img max-width = 100% alt="image" src="https://github.com/PakhrinLab/SumoPred-PLM/blob/main/Only_K_Sites_Snip_dataframe.PNG">
 <br>
 
 ## Sending Sites into SumoPred-PLM For Prediction
