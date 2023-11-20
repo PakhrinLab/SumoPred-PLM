@@ -97,12 +97,31 @@ Columns = 1025 (1 column to represent the protein residue + 1024 embeddings)
 In order to extract only the "K" sites from the contextualized embeddings you can use the following code:
 
 ``` bash
+import numpy as np
 import pandas as pd
+import warnings
+warnings.filterwarnings('ignore')
+
 df = pd.read_csv("P10275_Prot_Trans_.csv", header = None)                     # replace with your ProtT5 embeddings file
 Header = ["Residue"]+[int(i) for i in range(1,1025)]
 df.columns = Header
 df_K_Residue_Only = df[df["Residue"].isin(["K"])]
-df_K_Residue_Only.to_csv("P10275_K_Sites.csv", index = False)                 # saves the embeddings of only K residues
+
+K_residue_index = []
+All_residue_list = list(df["Residue"])
+for residue in range(len(All_residue_list)):
+    index_no = residue+1
+    amino_acid = All_residue_list[residue]
+    if amino_acid == "K":
+        K_residue_index.append(index_no)
+
+df_K_Residue_Only["K_index_starting_from_one"] = K_residue_index
+
+df_K_Residue_Only.to_csv("P10275_K_Sites.csv")                 # saves the embeddings of only K residues
+
+df_K_Residue_Only = pd.read_csv("P10275_K_Sites.csv")
+
+df_K_Residue_Only
 
 ```
 
